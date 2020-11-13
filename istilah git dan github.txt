@@ -27,3 +27,11 @@ git commit -am "namanya"
 
 #ls : melihat list dalam folder
 #git init : membuat folder menajdi master
+
+#membuat remote github "saya" = nama remote
+git remote add saya https://github.com/anggamailangga/angga-2.git
+
+#memasukkan file di lokal pada github baru
+git push -u saya master
+
+

@@ -24,3 +24,6 @@ git commit -m "namanya"
 
 #membuat pesan/memberi nama save-an update/modified
 git commit -am "namanya"
+
+#ls : melihat list dalam folder
+#git init : membuat folder menajdi master

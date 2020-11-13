@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Kontak Belajar HTML </title>
+	</head>
+
+	<body>
+		<!-- menu website -->
+		<div>
+			<a href="../Testing.html"> Home </a>
+			<a href="Kontak.html"> Kontak </a>
+		</div>
+
+		<!--bagian awal, isinya tag heading -->
+		<div>
+			<h1> IBAD AR RAHMAN </h1>
+			<img src="logo ibad baru.jpg" height="100" height="100">
+			<h2> &nbsp;Belajar Membuat Website Pelajaran TIK </h2>
+		</div>
+
+		<!-- membuat form pada html -->
+		<form>
+			<fieldset>
+				<fieldset>
+					<legend> Nama dan Pesan </legend>
+					<!-- membuat kolom isian pada html -->
+					<label for="nama_user">Nama</label><br>
+					<input type="text" placeholder="Nama Anda" id="nama_user">
+					<br><br>
+					<label for="pesan_user">Pesan</label><br>
+					<textarea cols="100" rows="7" id="pesan_user">Pesan saya adalah</textarea>
+				</fieldset>
+
+				<fieldset>
+					<legend> Pilihan Data </legend>
+					<label>Hobi</label> <br>
+					<!-- membuat type checkbox pada html -->
+					<input type="checkbox" name="hobi_user" value="1"> Menggambar <br>
+					<input type="checkbox" name="hobi_user" value="2"> Menulis <br>
+					<input type="checkbox" name="hobi_user" value="3"> Menyanyi 
+
+					<br><br>
+					<label>Jenis Kelamin</label> <br>
+					<!-- membuat type radio pada html -->
+					<input type="radio" name="gender" value="1"> Laki-laki <br>
+					<input type="radio" name="gender" value="0"> Perempuan
+
+					<br><br>
+					<label>Pelajaran</label> <br>
+					<!-- membuat select option pada html -->
+					<select>
+						<optgroup label="Pelajaran Umum">
+						<option value="1">Matematika</option>
+						<option value="2">IPA</option>
+						<option value="3">IPS</option>
+						</optgroup>
+
+						<optgroup label="Pelajaran Agama">
+						<option value="4">Akidah Akhlak</option>
+						<option value="5">Fiqih</option>
+						</optgroup>
+					</select>
+				</fieldset>
+
+					<br>	
+					<!-- membuat tombol submit data pada html -->
+					<input type="submit" name="">
+			</fieldset>
+		</form>
+
+		<br><br>	
+		<!-- membuat tabel pada html -->
+		<table border="1">
+			<caption> Daftar Murid Ibad Ar Rahman </caption>	
+			<!-- pada bagian kepala gunakan <th></th> agar tulisan jadi tebal-->
+			<tr>
+				<th> Nama Murid </th>
+				<th> Kota Asal </th>
+			</tr>
+			<tr>
+				<td> Mauza </td>
+				<td> Bandung </td>
+			</tr>
+			<tr>
+				<td> Rizka </td>
+				<td> Bandung </td>
+			</tr>
+			<tr>
+				<td> Angga </td>
+				<td> Serang </td>
+			</tr>
+		</table>
+
+		<!-- membuat list pada html -->
+		<!-- 1. list tidak berurutan -->
+		<ul>
+			<li> Mauza </li>
+			<li> Rizka </li>
+			<li> Angga </li>
+		</ul>
+
+		<!-- 2. order list/list berurutan -->
+		<ol>
+			<li> Mauza </li>
+			<li> Rizka </li>
+			<li> Angga </li>
+		</ol>
+
+		<!-- 3. data list untuk deskripsi -->
+		<dl>
+			<dt> Mauza anak dari : </dt>
+			<dd> Rizka </dd>
+			<dd> Angga </dd>
+		</dl>
+
+		<p> &copy; Ibad Ar Rahman </p>
+
+
+	</body>
+</html>

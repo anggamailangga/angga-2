@@ -1,0 +1,26 @@
+#menghubungkan dengan github
+git config --global user.email "angga.mailangga@gmail.com"
+
+git config --global user.name "anggamailangga"
+
+# jika sudah ada folder digithub kita kloning
+git clone https://github.com/anggamailangga/angga.git
+
+#cd (nama) : masuk folder
+#cd .. : keluar ke folder sebelumnya
+#git remote : melihat nama remote
+#git remote -v : melihat perlakuan (vibration)
+#git status : melihat status git
+
+#membuat fungsi graph
+alias graph="git log --all -- decorate --oneline --graph"
+
+#graph : melihat graph (hubungan master dengan local)
+
+#git add . : add untuk menghubungkan file baru
+
+#membuat pesan/memberi nama save - an baru
+git commit -m "namanya"
+
+#membuat pesan/memberi nama save-an update/modified
+git commit -am "namanya"
